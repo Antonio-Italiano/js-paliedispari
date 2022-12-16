@@ -15,10 +15,7 @@ function getRandomNumber(min, max) {
 }
 // stabilisco se la somma e pari o dispari con una funzione
 function isEven(sumNumbers) {
-
-    if(isNaN(sumNumbers % 2 === 0)) {
-        return true;
-    } else { return false; }
+    return sumNumbers % 2 === 0;
 }
 
 /----------------- operazioni preliminari -----------------/
