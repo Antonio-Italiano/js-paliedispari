@@ -11,27 +11,30 @@
     <!-- Stylesheet  -->    
     <link rel="stylesheet" href="css/style.css"> 
     <!-- Script    -->
-    <script defer src="js/palidroma.js"></script>
-    <!-- <script defer src="js/pari_dispari.js"></script> -->
+    <!-- <script defer src="js/palidroma.js"></script> -->
+    <script defer src="js/pari_dispari.js"></script>
 </head>
 <body>
-    <form id="form">
-        <label for="word">inserisci una parola</label>
-        <input type="text" name="word" id="word-user" required>
-        <button id="button">invia</button>
-        <div id="notice"></div>    
-    </form>
+    <section class="d-none">
+
+        <form id="form">
+            <label for="word">inserisci una parola</label>
+            <input type="text" name="word" id="word-user" required>
+            <button id="button">invia</button>
+            <div id="notice"></div>    
+        </form>
+    </section>
     <hr>
 
-    <section id="evenodd" class="my-5 ms-5 d-none">  
-        <select name="" id="select">
-            <option value="pari">pari</option>
-            <option value="dispari">dispari</option>
-        </select>      
-        <input id="player" type="number" min="1" max="5"  value="3">               
-        <div id="computer"></div>
-        <div id="result"></div>
-        <button id="btn">invia</button>
+    <section id="evenodd" class="my-5 ms-5">  
+            <select name="" id="select">
+                <option value="pari">pari</option>
+                <option value="dispari">dispari</option>
+            </select>      
+            <input id="player" type="number" min="1" max="5">               
+            <div id="computer"></div>
+            <div id="result"></div>
+            <button id="btn">invia</button>
     </section>
 </body>
 </html>
