@@ -51,7 +51,7 @@ btn.addEventListener('click', function() {
         return;
     }
     
-    if (!select || (select !== 'pari' && select !== 'dispari' )) {
+    if (!select || (select !== 'dispari' && select !== 'pari' )) {
         alert('la scelta non è valida');
         return;
     }
